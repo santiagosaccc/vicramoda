@@ -8,9 +8,10 @@ body{
 
 header{
     position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 5px;
+    top:0;
+    width: 100% ;
+    height: 138px;
+    padding: 20px;
     box-sizing: border-box;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -28,7 +29,7 @@ header{
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 .c a{
     text-decoration: none;
-    margin-left: 80px;
+    margin-left: 60px;
     padding: 20px;
     font-family: 'Heebo', sans-serif;
     color: rgb(7, 6, 6)
@@ -45,9 +46,9 @@ header{
     text-align: left;
 }
 .a img{
-    width: 120px;
-    height: 120px;
-    margin: 10px;
+    width: 110px;
+    height: 110px;
+    margin: 0px;
 }
 
 /*img header  then*/
@@ -88,7 +89,7 @@ aside{
 
 .fater h1 {
     margin-top: 100px;
-    display: inline-flex;
+    display: inline-block;
     background-color: blanchedalmond;
     margin: 50px;
     padding: 10px;
@@ -96,9 +97,74 @@ aside{
 }
 .fater h3{
     margin:800px;
-    display: inline-flex;
+    display: inline-block;
     background-color: blanchedalmond;
     margin: 100px;
     padding: 10px;
     
+}
+.cont{
+   
+text-align: center;
+margin: 100px;
+margin-top: 300px;
+margin-bottom: 5000px;
+}
+
+.q{
+    display: inline-block;
+    background-image: url(https://images.pexels.com/photos/3865906/pexels-photo-3865906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.w{
+    display: inline-block;
+    background-image: url(https://images.pexels.com/photos/6535368/pexels-photo-6535368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.e{
+    display: inline-block;
+    background-image: url(https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.r{
+    
+    display: inline-block;
+    background-image: url(https://images.pexels.com/photos/1700956/pexels-photo-1700956.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
+    width: 400px;
+height: 400px;
+margin: 20px;
+    background-size: 100% 100%;
+}
+.cont a{
+    text-decoration: none;
+   
+    font-size: 100px;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(255, 122, 122);
+    font-weight:700;
+    padding-bottom: 20px;
+    padding-top: 150px;
+   
+}
+.cont a:hover{
+    background-color:rgb(7, 7, 7); filter:alpha(opacity=500); opacity:.6;
+    
+}
+.dec{
+    
+  
 }
