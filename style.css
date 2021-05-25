@@ -29,8 +29,13 @@ header{
 .c a{
     text-decoration: none;
     margin-left: 80px;
+    padding: 20px;
     font-family: 'Heebo', sans-serif;
     color: rgb(7, 6, 6)
+}
+.c a:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*text header then   */
@@ -69,3 +74,31 @@ margin: 20px;
     color: rgb(245, 245, 245);
 }
 /*img article then   */
+aside{
+    text-align: center;
+}
+.fater{
+    display: inline-flexbox;
+    background-attachment: fixed;
+    margin: 200px ;
+    background-size: 100% 100%;
+    background-image: url(https://images.pexels.com/photos/4210860/pexels-photo-4210860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    padding-bottom: 100px;
+}
+
+.fater h1 {
+    margin-top: 100px;
+    display: inline-flex;
+    background-color: blanchedalmond;
+    margin: 50px;
+    padding: 10px;
+    
+}
+.fater h3{
+    margin:800px;
+    display: inline-flex;
+    background-color: blanchedalmond;
+    margin: 100px;
+    padding: 10px;
+    
+}
