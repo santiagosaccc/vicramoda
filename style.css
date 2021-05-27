@@ -110,6 +110,7 @@ margin: 100px;
 margin-top: 300px;
 margin-bottom: 5000px;
 }
+/*logo link*/
 
 .q{
     display: inline-block;
@@ -164,7 +165,30 @@ margin: 20px;
     background-color:rgb(7, 7, 7); filter:alpha(opacity=500); opacity:.6;
     
 }
-.dec{
-    
-  
+/*inico de footer */
+footer{
+    display: inline-block;
+    position: relative;
+    top:0;
+    width: 100% ;
+    height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    text-align: center;
 }
+
+.footer-dl{
+    display:inline-block;
+    margin: 10px 60px 10px 60px;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.title-footer{
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.img-footer{
+    height: 100px;
+}
+/*fin de footer */
