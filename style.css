@@ -108,7 +108,7 @@ aside{
 text-align: center;
 margin: 100px;
 margin-top: 300px;
-margin-bottom: 5000px;
+margin-bottom: 200px;
 }
 /*logo link*/
 
@@ -165,6 +165,44 @@ margin: 20px;
     background-color:rgb(7, 7, 7); filter:alpha(opacity=500); opacity:.6;
     
 }
+/*finde aside */
+
+/*inico de box-max */
+.box-max{
+    
+   background-image: url(https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+    margin:100px 300px ;
+    padding-bottom: 200px;
+}
+.box-max h3 {
+    font-size: 25px;
+    color: rgb(11, 11, 12);
+    padding: 30px 30px 10px 30px;
+    font-family: 'Heebo', sans-serif;
+    font-weight:700;
+}
+
+.box-max h1 {
+    font-size: 50px;
+    color: rgb(15, 15, 15);
+    padding: 50px 30px 2px 30px;
+}
+.box-ver{
+    text-align: center;
+    background-color: khaki;
+   
+    margin: 50px 700px 10px 30px ;
+  
+
+
+}
+/*fin de box-max */
+
+
+
 /*inico de footer */
 footer{
     display: inline-block;
@@ -176,6 +214,7 @@ footer{
     box-sizing: border-box;
     background: rgb(255, 255, 255);
     text-align: CENTER;
+    margin-top: 200px;
  
 }
 
@@ -184,10 +223,12 @@ footer{
     margin: 0px 50px 10px 50px;
    
 }
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 .title-footer{
     font-size: 20px;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-weight:700;
+   
 }
 .img-footer{
     display: inline-flexbox;
@@ -202,6 +243,11 @@ footer{
     margin: 20px 5px 20px 5px;
     width: 40px;
     height: 40px;
+    
+}
+.sub-footer{
+    margin-top: 10px;
+    
 }
 
 
