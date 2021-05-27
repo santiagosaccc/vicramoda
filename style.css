@@ -10,7 +10,7 @@ header{
     position: fixed;
     top:0;
     width: 100% ;
-    height: 138px;
+    height: 100px;
     padding: 20px;
     box-sizing: border-box;
     background: rgb(255, 255, 255);
@@ -24,7 +24,7 @@ header{
     float: right;
     padding-right:50px ;
     
-    padding-top: 45px;
+    padding-top: 20px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 .c a{
@@ -46,8 +46,8 @@ header{
     text-align: left;
 }
 .a img{
-    width: 110px;
-    height: 110px;
+    width: 180px;
+    height: 80px;
     margin: 0px;
 }
 
@@ -171,16 +171,17 @@ footer{
     position: relative;
     top:0;
     width: 100% ;
-    height: 150px;
+    height: 190px;
     padding: 20px;
     box-sizing: border-box;
     background: rgb(255, 255, 255);
-    text-align: center;
+    text-align: CENTER;
+ 
 }
 
 .footer-dl{
     display:inline-block;
-    margin: 10px 60px 10px 60px;
+    margin: 0px 50px 10px 50px;
    
 }
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
@@ -189,6 +190,19 @@ footer{
     font-family: 'Alfa Slab One', cursive;
 }
 .img-footer{
+    display: inline-flexbox;
+   
+    margin-top: 0px;
+    padding-top: 30px;
     height: 100px;
+    width: 180px;
+    
 }
+.icon-footer{
+    margin: 20px 5px 20px 5px;
+    width: 40px;
+    height: 40px;
+}
+
+
 /*fin de footer */
